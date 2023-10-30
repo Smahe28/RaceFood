@@ -1,0 +1,6 @@
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\OrderInterface\bin\Debug\OrderInterface.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\OrderInterface\bin\Debug\OrderInterface.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\OrderInterface\obj\Debug\OrderInterface.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\OrderInterface\obj\Debug\OrderInterface.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\RaceFood\OrderInterface\obj\Debug\OrderInterface.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\RaceFood\OrderInterface\obj\Debug\OrderInterface.csproj.CoreCompileInputs.cache

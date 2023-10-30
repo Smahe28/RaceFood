@@ -41,7 +41,7 @@ namespace Users
             using (SqlConnection con = R_connection.MyConnection())
             {
                 con.Open();
-                string sql = "insert into SignUp(Name,Gender,DateOfBirth,PhoneNo,Email,Password,Address) values(@Name,@Gender,@DateOfBirth,@PhoneNo,@Email,@Password,@Address)";
+                string sql = "insert into  SignUp(Name,Gender,DateOfBirth,PhoneNo,Email,Password,Address) values(@Name,@Gender,@DateOfBirth,@PhoneNo,@Email,@Password,@Address)";
                 SqlCommand cmd = new SqlCommand(sql, con);
                 cmd.Parameters.AddWithValue("@Name", UserData.Name);
                 cmd.Parameters.AddWithValue("@Gender", UserData.Gender);

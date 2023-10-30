@@ -1,0 +1,4 @@
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\SearchFoodCenter\bin\Debug\SearchFoodCenter.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\SearchFoodCenter\bin\Debug\SearchFoodCenter.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\SearchFoodCenter\obj\Debug\SearchFoodCenter.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\SearchFoodCenter\obj\Debug\SearchFoodCenter.pdb

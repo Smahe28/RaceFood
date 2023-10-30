@@ -1,0 +1,9 @@
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\FoodInterFacing\bin\Debug\FoodInterFacing.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\FoodInterFacing\bin\Debug\FoodInterFacing.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\FoodInterFacing\obj\Debug\FoodInterFacing.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\FoodInterFacing\obj\Debug\FoodInterFacing.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\FoodInterFacing\bin\Debug\SearchFoodInterFace.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\FoodInterFacing\bin\Debug\SearchFoodInterFace.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\RaceFood\FoodInterFacing\obj\Debug\FoodInterFacing.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\RaceFood\FoodInterFacing\obj\Debug\FoodInterFacing.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\RaceFood\FoodInterFacing\obj\Debug\FoodInterFacing.csproj.CopyComplete

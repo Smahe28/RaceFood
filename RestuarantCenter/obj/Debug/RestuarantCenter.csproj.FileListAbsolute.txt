@@ -1,0 +1,13 @@
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\RestuarantCenter\bin\Debug\RestuarantCenter.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\RestuarantCenter\bin\Debug\RestuarantCenter.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\RestuarantCenter\bin\Debug\Restuarant.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\RestuarantCenter\bin\Debug\RestuarantInterFacing.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\RestuarantCenter\bin\Debug\Database1.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\RestuarantCenter\bin\Debug\RestuarantInterFacing.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\RestuarantCenter\bin\Debug\Restuarant.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\RestuarantCenter\bin\Debug\Database1.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\RestuarantCenter\obj\Debug\RestuarantCenter.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\RestuarantCenter\obj\Debug\RestuarantCenter.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\RaceFood\RestuarantCenter\obj\Debug\RestuarantCenter.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\RaceFood\RestuarantCenter\obj\Debug\RestuarantCenter.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\RaceFood\RestuarantCenter\obj\Debug\RestuarantCenter.csproj.CopyComplete
