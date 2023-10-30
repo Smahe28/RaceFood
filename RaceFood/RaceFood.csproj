@@ -24,7 +24,6 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -171,47 +170,16 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="Admin\CancelOrders.aspx" />
-    <Content Include="Admin\CompleteForDeliBoy.aspx" />
-    <Content Include="Admin\CompleteOrders.aspx" />
-    <Content Include="Admin\DashBoard.aspx" />
-    <Content Include="Admin\DelivaryBoysList.aspx" />
-    <Content Include="Admin\DeliveryBoyRegister.aspx" />
-    <Content Include="Admin\FoodDetails.aspx" />
-    <Content Include="Admin\OrderDetails.aspx" />
-    <Content Include="Admin\OrderFoods.aspx" />
-    <Content Include="Admin\OrdersDashboard.aspx" />
-    <Content Include="Admin\Register.aspx" />
-    <Content Include="Admin\RestuarantDashBoard.aspx" />
-    <Content Include="Admin\RestuarantDetails.aspx" />
-    <Content Include="Admin\UserDetails.aspx" />
-    <Content Include="Bootsrap\bootstrap.min.css" />
-    <Content Include="Bootsrap\bootstrap.min.js" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="DeliveryBoys\DeliveryBoyLogin.aspx" />
-    <Content Include="DeliveryBoys\DeliveryBoyPage.aspx" />
-    <Content Include="DeliveryBoys\OrdersPage.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
-    <Content Include="Admin\Admin.Master" />
-    <Content Include="Image\dt.jpg" />
-    <Content Include="Image\exvabyyif9xj1vu0vlcv.jpg" />
-    <Content Include="Image\vyu %282%29.jpg" />
-    <Content Include="Image\vyu.jpg" />
-    <Content Include="Image\yhubnur %282%29.jpg" />
-    <Content Include="Image\yhubnur.jpg" />
-    <Content Include="Login.aspx" />
-    <Content Include="Restuarant\FoodRegister.aspx" />
-    <Content Include="Restuarant\RestuarantHome.Master" />
-    <Content Include="DeliveryBoys\DeliveryBoyMaster.Master" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Restuarant\RestuarantLogin.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -245,14 +213,6 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
-    <Content Include="User\AddCart.aspx" />
-    <Content Include="User\AllOrders.aspx" />
-    <Content Include="User\FoodPage.aspx" />
-    <Content Include="User\HomeRestuarant.aspx" />
-    <Content Include="User\Order.aspx" />
-    <Content Include="User\SignUp.aspx" />
-    <Content Include="User\UserEntrance.aspx" />
-    <Content Include="User\Verify.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -260,7 +220,6 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
-    <Content Include="User\User.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -271,213 +230,93 @@
   <ItemGroup>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.designer.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Confirm.aspx.cs">
       <DependentUpon>Confirm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Confirm.aspx.designer.cs">
       <DependentUpon>Confirm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Forgot.aspx.cs">
       <DependentUpon>Forgot.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Forgot.aspx.designer.cs">
       <DependentUpon>Forgot.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Lockout.aspx.cs">
       <DependentUpon>Lockout.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Lockout.aspx.designer.cs">
       <DependentUpon>Lockout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Manage.aspx.cs">
       <DependentUpon>Manage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Manage.aspx.designer.cs">
       <DependentUpon>Manage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ManageLogins.aspx.cs">
       <DependentUpon>ManageLogins.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ManageLogins.aspx.designer.cs">
       <DependentUpon>ManageLogins.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ManagePassword.aspx.cs">
       <DependentUpon>ManagePassword.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ManagePassword.aspx.designer.cs">
       <DependentUpon>ManagePassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\OpenAuthProviders.ascx.cs">
       <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\OpenAuthProviders.ascx.designer.cs">
       <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
     </Compile>
     <Compile Include="Account\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\RegisterExternalLogin.aspx.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ResetPassword.aspx.cs">
       <DependentUpon>ResetPassword.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ResetPassword.aspx.designer.cs">
       <DependentUpon>ResetPassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ResetPasswordConfirmation.aspx.cs">
       <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ResetPasswordConfirmation.aspx.designer.cs">
       <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.cs">
       <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.designer.cs">
       <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\VerifyPhoneNumber.aspx.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\Admin.Master.cs">
-      <DependentUpon>Admin.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\Admin.Master.designer.cs">
-      <DependentUpon>Admin.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\CancelOrders.aspx.cs">
-      <DependentUpon>CancelOrders.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\CancelOrders.aspx.designer.cs">
-      <DependentUpon>CancelOrders.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\CompleteForDeliBoy.aspx.cs">
-      <DependentUpon>CompleteForDeliBoy.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\CompleteForDeliBoy.aspx.designer.cs">
-      <DependentUpon>CompleteForDeliBoy.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\CompleteOrders.aspx.cs">
-      <DependentUpon>CompleteOrders.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\CompleteOrders.aspx.designer.cs">
-      <DependentUpon>CompleteOrders.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\DashBoard.aspx.cs">
-      <DependentUpon>DashBoard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\DashBoard.aspx.designer.cs">
-      <DependentUpon>DashBoard.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\DelivaryBoysList.aspx.cs">
-      <DependentUpon>DelivaryBoysList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\DelivaryBoysList.aspx.designer.cs">
-      <DependentUpon>DelivaryBoysList.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\DeliveryBoyRegister.aspx.cs">
-      <DependentUpon>DeliveryBoyRegister.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\DeliveryBoyRegister.aspx.designer.cs">
-      <DependentUpon>DeliveryBoyRegister.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\FoodDetails.aspx.cs">
-      <DependentUpon>FoodDetails.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\FoodDetails.aspx.designer.cs">
-      <DependentUpon>FoodDetails.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\OrderDetails.aspx.cs">
-      <DependentUpon>OrderDetails.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\OrderDetails.aspx.designer.cs">
-      <DependentUpon>OrderDetails.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\OrderFoods.aspx.cs">
-      <DependentUpon>OrderFoods.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\OrderFoods.aspx.designer.cs">
-      <DependentUpon>OrderFoods.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\OrdersDashboard.aspx.cs">
-      <DependentUpon>OrdersDashboard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\OrdersDashboard.aspx.designer.cs">
-      <DependentUpon>OrdersDashboard.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\RestuarantDashBoard.aspx.cs">
-      <DependentUpon>RestuarantDashBoard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\RestuarantDashBoard.aspx.designer.cs">
-      <DependentUpon>RestuarantDashBoard.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\RestuarantDetails.aspx.cs">
-      <DependentUpon>RestuarantDetails.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\RestuarantDetails.aspx.designer.cs">
-      <DependentUpon>RestuarantDetails.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\UserDetails.aspx.cs">
-      <DependentUpon>UserDetails.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\UserDetails.aspx.designer.cs">
-      <DependentUpon>UserDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -504,67 +343,11 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DeliveryBoys\DeliveryBoyLogin.aspx.cs">
-      <DependentUpon>DeliveryBoyLogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DeliveryBoys\DeliveryBoyLogin.aspx.designer.cs">
-      <DependentUpon>DeliveryBoyLogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DeliveryBoys\DeliveryBoyMaster.Master.cs">
-      <DependentUpon>DeliveryBoyMaster.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DeliveryBoys\DeliveryBoyMaster.Master.designer.cs">
-      <DependentUpon>DeliveryBoyMaster.Master</DependentUpon>
-    </Compile>
-    <Compile Include="DeliveryBoys\DeliveryBoyPage.aspx.cs">
-      <DependentUpon>DeliveryBoyPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DeliveryBoys\DeliveryBoyPage.aspx.designer.cs">
-      <DependentUpon>DeliveryBoyPage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DeliveryBoys\OrdersPage.aspx.cs">
-      <DependentUpon>OrdersPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DeliveryBoys\OrdersPage.aspx.designer.cs">
-      <DependentUpon>OrdersPage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Restuarant\FoodRegister.aspx.cs">
-      <DependentUpon>FoodRegister.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Restuarant\FoodRegister.aspx.designer.cs">
-      <DependentUpon>FoodRegister.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Restuarant\RestuarantHome.Master.cs">
-      <DependentUpon>RestuarantHome.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Restuarant\RestuarantHome.Master.designer.cs">
-      <DependentUpon>RestuarantHome.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Restuarant\RestuarantLogin.aspx.cs">
-      <DependentUpon>RestuarantLogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Restuarant\RestuarantLogin.aspx.designer.cs">
-      <DependentUpon>RestuarantLogin.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -574,78 +357,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="User\AddCart.aspx.cs">
-      <DependentUpon>AddCart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\AddCart.aspx.designer.cs">
-      <DependentUpon>AddCart.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\AllOrders.aspx.cs">
-      <DependentUpon>AllOrders.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\AllOrders.aspx.designer.cs">
-      <DependentUpon>AllOrders.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\FoodPage.aspx.cs">
-      <DependentUpon>FoodPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\FoodPage.aspx.designer.cs">
-      <DependentUpon>FoodPage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\HomeRestuarant.aspx.cs">
-      <DependentUpon>HomeRestuarant.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\HomeRestuarant.aspx.designer.cs">
-      <DependentUpon>HomeRestuarant.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\Order.aspx.cs">
-      <DependentUpon>Order.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\Order.aspx.designer.cs">
-      <DependentUpon>Order.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\SignUp.aspx.cs">
-      <DependentUpon>SignUp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\SignUp.aspx.designer.cs">
-      <DependentUpon>SignUp.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\User.Master.cs">
-      <DependentUpon>User.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\User.Master.designer.cs">
-      <DependentUpon>User.Master</DependentUpon>
-    </Compile>
-    <Compile Include="User\UserEntrance.aspx.cs">
-      <DependentUpon>UserEntrance.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\UserEntrance.aspx.designer.cs">
-      <DependentUpon>UserEntrance.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\Verify.aspx.cs">
-      <DependentUpon>Verify.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\Verify.aspx.designer.cs">
-      <DependentUpon>Verify.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -653,68 +371,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Admininterfacing\Admininterfacing.csproj">
-      <Project>{71fd887c-92bc-4eed-88a6-a5a28e937602}</Project>
-      <Name>Admininterfacing</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AdninCenter\AdninCenter.csproj">
-      <Project>{73ba7d8e-5cf7-41bd-b2b8-e926d7c04efd}</Project>
-      <Name>AdninCenter</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DeliverOrder\DeliverOrder.csproj">
-      <Project>{e93216d9-a539-44e4-a46e-31fc337a80b0}</Project>
-      <Name>DeliverOrder</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DeliveryBoycenter\DeliveryBoycenter.csproj">
-      <Project>{d264ec93-d022-49e8-ba83-8b6d2cb65ff8}</Project>
-      <Name>DeliveryBoycenter</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DeliveryBoyInterface\DeliveryBoyInterface.csproj">
-      <Project>{719a39a8-7bd2-462d-b883-38b183bd9974}</Project>
-      <Name>DeliveryBoyInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FoodCenter\FoodCenter.csproj">
-      <Project>{6899a96e-5848-4c49-969f-e0fa49cb3f40}</Project>
-      <Name>FoodCenter</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FoodInterFacing\FoodInterFacing.csproj">
-      <Project>{4d8dd923-819f-475e-80da-79acaf0dfa4f}</Project>
-      <Name>FoodInterFacing</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OrderInterface\OrderInterface.csproj">
-      <Project>{bd222175-e5c6-4ef1-9848-930ec6f16d2a}</Project>
-      <Name>OrderInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\RestuarantCenter\RestuarantCenter.csproj">
-      <Project>{cb3605c0-e4e9-44b7-b4c9-8d7c7b8fa72e}</Project>
-      <Name>RestuarantCenter</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\RestuarantInterFacing\RestuarantInterFacing.csproj">
-      <Project>{3f4c4753-116a-45dd-8208-140afb649f9e}</Project>
-      <Name>RestuarantInterFacing</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Restuarant\Restuarant.csproj">
-      <Project>{aca3fc0a-f0cc-4b0a-a38c-bda18af8f929}</Project>
-      <Name>Restuarant</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SearchFoodInterFace\SearchFoodInterFace.csproj">
-      <Project>{cf9933ef-c056-48f6-a53d-68af1e7a3514}</Project>
-      <Name>SearchFoodInterFace</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\UserCenter\UserCenter.csproj">
-      <Project>{e949b777-d4a0-45d7-b399-db34ca802ce0}</Project>
-      <Name>UserCenter</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\UserInterfacing\UserInterfacing.csproj">
-      <Project>{abafd6a0-a4c2-460d-8667-58f1aafe5728}</Project>
-      <Name>UserInterfacing</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Users\Users.csproj">
-      <Project>{b0360948-6636-44bc-95d1-77f22f2f54e9}</Project>
-      <Name>Users</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
