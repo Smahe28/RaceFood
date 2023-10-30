@@ -1,0 +1,6 @@
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\SearchFoods\bin\Debug\SearchFoods.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\SearchFoods\bin\Debug\SearchFoods.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\SearchFoods\obj\Debug\SearchFoods.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\RaceFood\SearchFoods\obj\Debug\SearchFoods.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\RaceFood\SearchFoods\obj\Debug\SearchFoods.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\RaceFood\SearchFoods\obj\Debug\SearchFoods.csproj.CoreCompileInputs.cache
